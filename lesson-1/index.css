@@ -1,0 +1,16 @@
+.time-container {
+    height: 300px;
+}
+.time{
+height: 100px;
+width: 100px;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 162, 0);
+margin-inline:20px;
+border:1px solid black;
+border-radius:5px;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+padding: 20px;
+}
