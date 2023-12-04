@@ -14,3 +14,4 @@ var arr= [ "Imran" , "iftikhar" , "asghar", "shahid",8,a]
 
 var gs=document.getElementsByClassName("text-g")
 gs[0].innerText="h1 tag"
+
