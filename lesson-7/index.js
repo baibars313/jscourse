@@ -3,7 +3,7 @@ let numbers = [1, 2, 3, 4, 5,"shahid",[1,2,3,4]];
 
 // push() and pop()
 // numbers.push(6);
-console.log(numbers); // Output: [1, 2, 3, 4, 5, 6]
+// console.log(numbers); // Output: [1, 2, 3, 4, 5, 6]
 // numbers.pop();
 // console.log(numbers); // Output: [1, 2, 3, 4, 5]
 
@@ -17,7 +17,28 @@ console.log(numbers); // Output: [1, 2, 3, 4, 5, 6]
 // let slicedNumbers = numbers.slice(0, 6);
 // console.log(slicedNumbers); // Output: [2, 3, 4]
 // console.log(numbers.length)
-numbers.splice(2, 1, 10, 11);
+
+
+
+
+
+
+
+
+
+let array_index=numbers.indexOf(5)
+console.log(array_index)
+numbers.splice(array_index,1,"five");
+
+
+
+
+
+
+
+
+
+
 console.log(numbers); // Output: [1, 2, 10, 11, 5]
 
 // // String methods
@@ -38,24 +59,24 @@ console.log(numbers); // Output: [1, 2, 10, 11, 5]
 // console.log(greeting.toUpperCase()); // Output: HELLO, WORLD!
 // console.log(greeting.toLowerCase()); // Output: hello, world!
 
-// // Object methods
-// let person = {
-//   name: "John",
-//   age: 25,
-//   job: "Developer"
-// };
+// Object methods
+let person = {
+  name: "John",
+  age: 25,
+  job: "Developer"
+};
 
 // // Object.keys()
-// let keys = Object.keys(person);
-// console.log(keys); // Output: ["name", "age", "job"]
+let keys = Object.keys(person);
+console.log(keys); // Output: ["name", "age", "job"]
 
 // // Object.values()
-// let values = Object.values(person);
-// console.log(values); // Output: ["John", 25, "Developer"]
+let values = Object.values(person);
+console.log(values); // Output: ["John", 25, "Developer"]
 
 // // Object.entries()
-// let entries = Object.entries(person);
-// console.log(entries); // Output: [["name", "John"], ["age", 25], ["job", "Developer"]]
+let entries = Object.entries(person);
+console.log(entries); // Output: [["name", "John"], ["age", 25], ["job", "Developer"]]
 
 // // hasOwnProperty()
 // console.log(person.hasOwnProperty("name")); // Output: true
@@ -63,3 +84,22 @@ console.log(numbers); // Output: [1, 2, 10, 11, 5]
 // // delete
 // delete person.job;
 // console.log(person); // Output: { name: 'John', age: 25 }
+
+console.log(person.age)
+console.log(person.name)
+
+let arr=[{
+    name: "John1",
+    age: 25,
+    job: "Developer"
+  }
+  ,{
+    name: "John2",
+    age: 20,
+    job: "App Developer"
+  },{
+    name: "John3",
+    age: 30,
+    job: "Web"
+  }  
+  ]
